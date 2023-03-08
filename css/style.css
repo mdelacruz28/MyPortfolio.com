@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #020001;
+    color: #ffffff;
     outline: none;
     text-decoration: none;
 }
@@ -54,11 +54,18 @@ a:focus {
 }
 
 .btn:hover {
-    color: #190d52;
+    color: #000000;
     background: transparent;
     box-shadow: inset 0 0 0 0 #020001;
     border-color: #020001;
 }
+.about-btn:active{
+    color: #f7f7f7;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #020001;
+    border-color: #020001;
+}
+
 
 #loader {
     position: fixed;
@@ -97,6 +104,13 @@ a:focus {
     animation: spin 5s linear infinite;
     --duration: 5s;
 }
+.btn .btn.active{
+    color: #f3f3f3;
+    background: transparent;
+    box-shadow: inset 0 0 0 0 #fcfcfc;
+    border-color: #020001;
+}
+    
 
 .back-to-top {
     position: fixed;
@@ -235,7 +249,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin-bottom: 45px;
-    padding: 120px 0 0 0;
+    padding: 250px 0 0 0;
     overflow: hidden;
     background: linear-gradient(rgba(49, 40, 40, 0.616), rgba(73, 63, 63, 0.288)), url(../img/code.jpg);
     background-position: center;
@@ -297,7 +311,7 @@ a:focus {
     font-size: 60px;
     font-weight: 700;
     letter-spacing: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .hero .hero-text h2 {
